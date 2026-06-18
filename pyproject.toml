@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.40.0",
     "mcp[cli]>=1.26.0",
     "pdfplumber>=0.11.9",
     "requests>=2.33.1",
+    "streamlit>=1.40.0",
 ]
 
 [tool.uv.workspace]
