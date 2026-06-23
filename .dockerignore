@@ -7,3 +7,6 @@ __pycache__/
 .claude/
 weather/
 *.md
+uv.lock
+pyproject.toml
+.python-version
