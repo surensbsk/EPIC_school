@@ -8,8 +8,9 @@ COPY requirements.txt ./
 # Install all dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application source
-COPY streamlit_app.py EPIC_Server.py EPIC_Client.py ./
+# Copy application source and Streamlit config
+COPY streamlit_app.py epic_chatbot.py EPIC_Server.py EPIC_Client.py ./
+COPY .streamlit/config.toml .streamlit/config.toml
 
 EXPOSE 8501
 
