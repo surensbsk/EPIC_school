@@ -11,3 +11,4 @@ wheels/
 
 # Local secrets — never commit
 .env
+.streamlit/secrets.toml

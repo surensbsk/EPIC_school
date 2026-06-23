@@ -9,7 +9,7 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application source
-COPY streamlit_app.py EPIC_Server.py EPIC_Client.py ./
+COPY streamlit_app.py epic_chatbot.py EPIC_Server.py EPIC_Client.py ./
 
 EXPOSE 8501
 
